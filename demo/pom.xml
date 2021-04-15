@@ -30,5 +30,17 @@
     </dependency>
   </dependencies>
 
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>MAHESH-releases</name>
+        <url>http://localhost:8081/artifactory/tek-maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>MAHESH-snapshots</name>
+        <url>http://localhost:8081/artifactory/tek-maven</url>
+    </snapshotRepository>
+</distributionManagement>
   
 </project>
